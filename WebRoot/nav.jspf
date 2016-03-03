@@ -1,0 +1,49 @@
+<%@ page pageEncoding="utf-8"%>
+<!-- 导航栏 -->
+<div id="nav">
+	
+    <ul class="ca-menu">
+        <li>
+            <a href="introduce.jsp">
+                <span class="ca-icon">1</span>
+                <div class="ca-content">
+                    <h2 class="ca-main">班级简介<br/>Profile</h2>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="new_list.jsp">
+                <span class="ca-icon">2</span>
+                <div class="ca-content">
+                    <h2 class="ca-main">班级新闻<br/>News</h2>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="album.jsp">
+                <span class="ca-icon">0</span>
+                <div class="ca-content">
+                    <h2 class="ca-main">班级相册<br/>Album</h2>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="active_list.jsp">
+                <span class="ca-icon">5</span>
+                <div class="ca-content">
+                    <h2 class="ca-main">班级活动<br/>Activity</h2>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="index.jsp">
+                <span class="ca-icon">班</span>
+                <div class="ca-content">
+                    <h2 class="ca-main">首页<br/>Index</h2>
+                </div>
+            </a>
+        </li>
+    </ul>
+	
+</div>
+    

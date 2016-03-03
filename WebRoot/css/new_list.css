@@ -1,0 +1,149 @@
+/*border:1px solid black;*/
+body{
+	margin:0 auto;
+	background-image:url(../images/3.png);
+}
+
+#nav{
+	height:300px;
+}
+
+#containter{
+	margin:auto;
+	width:1000px;
+}
+
+#head_title{
+	color:#FFF;
+	float:left;
+	width:100px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	background:#09F;
+}
+
+#head_message{
+	float:right;
+	width:800px;
+	direction:rtl;
+	font-size:12px;
+	margin-top:10px;
+	margin-right:5px;
+}
+
+#content{
+	border-top:2px solid blue;
+	clear:left;
+	word-break:break-all;
+	padding-top:10px;
+}
+/*****************************************/
+/*
+	border:1px solid black;
+	width:0px;
+	height:0px;
+*/
+a {text-decoration: none;}
+
+
+.timeline_separate{
+	position:absolute;
+	width:845px;
+	background-image:url(../images/sgz0.png);
+	background-repeat:repeat-y;
+	background-position:189px 0px;
+	z-index:99;
+}
+.timeline_date{
+	color:white;
+	text-align:center;
+	width:170px;
+	height:28px;
+	font-size:20px;
+	font-weight:bold;
+	background-color:#C4CDD6;
+	float:left;
+}
+
+.timeline_arrow{
+	border-style:solid;
+	border-width:14px 0px 14px 14px;
+	border-color:transparent #C4CDD6;
+	float:left;
+}
+
+.unorderlist{	
+	overflow:hidden;
+	background-image:url(../images/sgz0.png);
+	background-repeat:repeat-y;
+	background-position:189px 0px;
+	margin-bottom:0px;
+	padding:20px 0;
+}
+
+.list{
+	list-style-type:none;
+	list-style-position:inside;
+	width:1000px;
+	margin:10px 0px;
+	float:right;
+}
+
+.time{
+	width:50px;
+	margin-top:2px;
+	margin-left:120px;
+	float:left;
+}
+
+.new{
+	position:relative;
+	border:2px solid #ccc;
+	border-radius:5px;
+	width:770px;
+	float:right;
+}
+
+.new_arrow{
+	position:absolute;
+	width:43px;
+	height:32px;
+	background-image:url(../images/sgz1.png);
+	top:3px;
+	left:-45px;
+}
+.new_arrow:hover{
+	background-image:url(../images/sgz2.png);
+}
+
+.new_title{
+	position:relative;
+	color:red;
+	top:5px;
+	left:5px;
+}
+.new_title:hover{
+	left:10px;
+	font-weight:bold;
+}
+
+.new_info{
+	margin-top:10px;
+	border-top:1px solid black;
+}
+
+.new_detail{
+	float:right;
+}
+.new_detail:link{color:blue;}
+.new_detail:visited{color:blue;}
+.new_detail:hover{color:green;}
+.new_detail:active{color:red;}
+.new_detail{ 
+	transition: All 1s ease; 
+	-webkit-transition: All 1s ease;
+	-moz-transition: All 1s ease; 
+	-ms-transition: All 1s ease; 
+	-o-transition: All 1s ease; 
+}

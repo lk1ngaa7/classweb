@@ -1,0 +1,22 @@
+/*powered by ldc4,凌渡辰风。for classweb!*/
+body{
+	background-image: url("../../images/3.png");
+}
+
+#main{
+	border:1px solid #aaa;
+	background-color:rgba(101,123,145,0.5);
+	width:1024px;
+	margin:0 auto;
+	margin-top:50px;
+	color:white;
+}
+#import_div{
+	margin-right:20px;
+	color:blue;
+	float:right;
+	font-size:13px;
+}
+#five{
+	margin-left:20px;
+}

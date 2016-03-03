@@ -1,0 +1,56 @@
+/*border:1px solid black;*/
+body{
+	margin:0 auto;
+	background-image:url(../images/3.png);
+}
+
+#nav{
+	height:300px;
+}
+
+#containter{
+	margin:auto;
+	width:1000px;
+}
+
+#head_title{
+	color:#FFF;
+	float:left;
+	width:100px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	background:#09F;
+}
+
+#head_message{
+	float:right;
+	width:800px;
+	direction:rtl;
+	font-size:12px;
+	margin-top:10px;
+	margin-right:5px;
+}
+
+#content{
+	border-top:1px solid blue;
+	clear:left;
+	word-break:break-all;
+}
+/****************************************/
+
+#new_detail_title{
+	color:blue;
+	font-size:36px;
+	text-align:center;
+	border-bottom:5px solid white;
+}
+#new_detail_time{
+	color:blue;
+	font-size:14px;
+	text-align:center;	
+}
+#new_detail_content{
+	font-size:16px;
+}
+

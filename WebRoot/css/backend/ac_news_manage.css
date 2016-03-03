@@ -1,0 +1,42 @@
+/*powered by ldc4,凌渡辰风。for classweb!*/
+body{
+	background-image: url("../../images/3.png");
+}
+#head{
+	font-size:70px;
+	font-family:Arial,Helvetica,sans-serif;
+	text-align:center;
+}
+#thead{
+	border:1px solid #aaa;
+	width:1000px;
+	margin:0 auto;
+}
+#thead div{
+	display:inline-block;
+}
+#tbody{
+	list-style-type:none;
+}
+.row_div{
+	border:1px solid #aaa;
+	width:1000px;
+	margin:0 auto;
+}
+.row_div div{
+	display:inline-block;
+}
+.no{
+	width:32px;
+}
+.title{
+	width:500px;
+}
+.date{
+	width:200px;
+}
+#manage_button{
+	width:170px;
+	margin:0 auto;
+	padding-top:20px;
+}

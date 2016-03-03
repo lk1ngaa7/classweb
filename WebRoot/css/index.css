@@ -1,0 +1,169 @@
+body{
+	margin:0 auto; 
+	background-image:url("../images/3.png");
+}
+/*集体照*/
+#class_photo{
+	position:relative;
+	border:5px solid white;
+	width:1000px;
+	height:400px;
+	margin:auto;
+}
+/*班级标语*/
+#class_slogan{
+	position:absolute;
+	color:white;
+	left:20px;
+	top:10px;
+}
+/*班徽*/
+#class_emblem{
+	width:120px;
+	height:120px;
+	margin:auto;
+	margin-bottom:200px;
+}
+/*同学寄语*/
+#class_words{
+	background: url(../images/wish_Images/bg_main.jpg);
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	display:none;
+}
+#class_words_content{
+	height:2000px;
+	margin:0px auto;
+}
+
+/****************************************************************/
+
+#class_content{
+	width:1015px;
+	margin:350px auto 0px;
+	background: rgba(34, 14, 134, 0);
+}
+#class_new{
+	position:relative;
+	width:1010px;
+	top:2px;
+	margin-left:2px;
+	background: rgba(37, 30, 216, 0.29);
+}
+#new_name{
+	position:relative;
+	width:1006px;
+	height:30px;
+	top:2px;
+	margin-left:2px;
+	padding-top:5px;
+	background: rgba(120, 139, 21, 0.21);
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+#new_name>a>h3{
+	color:black;
+}
+.new_content{
+	border-bottom:1px solid white;
+}
+.new_content_title{
+	display:inline-block;
+	overflow:hidden;
+	text-overflow:ellipsis;/*溢出用...代替*/
+	white-space:nowrap; /*不换行*/
+	width:250px;
+	margin-left:30px;
+	margin-right:20px;
+	padding:3px 0px;
+}
+.new_content_content{
+	display:inline-block;
+	overflow:hidden;
+	text-overflow:ellipsis;/*溢出用...代替*/
+	white-space:nowrap; /*不换行*/
+	padding:3px 0px;
+	width:700px;
+}
+#class_active{
+	position:relative;
+	width:1010px;
+	height:363px;
+	margin-top:6px;
+	margin-left:2px;
+	background: rgba(37, 30, 216, 0.29);
+}
+#active_name{
+	position:relative;
+	width:1006px;
+	height:30px;
+	top:2px;
+	margin-left:2px;
+	padding-top:5px;
+	background: rgba(120, 139, 21, 0.21);
+}
+.active_content{
+	position:relative;
+	width:250px;
+	height:325px;
+	top:2px;
+	margin-left:2px;
+	background: rgba(120, 139, 21, 0.21);
+	float:left;
+}
+.active_content>a>img{
+	 width:250px;
+	 height:200px;
+}
+.active_content_words{
+	margin:10px;
+}
+.active_content_words>p{
+	font-size:10px;
+}
+.active_content_words>p>span{
+	font-size:10px;
+}
+#camera{
+	background:rgba(37, 30, 216, 0.29);
+	height:163px;
+	width:1010px;
+	margin-left:2px;
+}
+#camera_name{
+    position:relative;
+	width:1006px;
+	height:30px;
+	top:2px;
+	margin-top:6px;
+	margin-left:2px;
+	padding-top:5px;
+	background: rgba(120, 139, 21, 0.21);
+}
+.camera_in{
+    float: left;
+    overflow: hidden;
+    width: 944px;
+    position: relative;
+}
+#camera_show img{
+	margin-top:3px;
+    float: left;
+    cursor: pointer;
+}
+#layout_ul{
+	margin-top:15px;
+    width: 200px;
+    position: relative;
+}
+#layout_ul li{
+    float: left;
+    padding-left: 16px;
+}
+#zhuye{
+	margin-bottom:20px;
+}

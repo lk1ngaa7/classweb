@@ -1,0 +1,6 @@
+com.classweb.dao
+com.classweb.model
+com.classweb.servlet
+com.classweb.test
+com.classweb.util
+com.classweb.util.fileutil
